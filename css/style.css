@@ -652,7 +652,6 @@ button {
 }
 
 .modal-footer-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -664,10 +663,12 @@ button {
 }
 
 .footer-modal-item {
-  display: flex;
-  justify-content: space-between;
   min-width: 570px;
   margin-top: 10px;
+}
+
+.footer-form {
+  display: flex;
 }
 
 .form-footer {
@@ -675,6 +676,8 @@ button {
   height: 50px;
 
   padding: 15px 16px;
+
+  margin-right: 12px;
 
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -686,6 +689,9 @@ button {
 }
 
 .modal-footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
 
@@ -698,15 +704,13 @@ button {
   letter-spacing: 0.06em;
 
   color: #ffffff;
-
+  margin: 0;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-.footer-icon-svg {
-  display: flex;
-  text-align: center;
+.footer-icon {
 }
 
 /* Модальное окно header */
