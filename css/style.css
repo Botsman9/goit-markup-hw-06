@@ -707,6 +707,7 @@ button {
 
 .footer-icon {
   display: block;
+  margin-left: 10px;
 }
 
 /* Модальное окно header */
