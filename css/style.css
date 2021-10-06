@@ -471,21 +471,13 @@ button {
   align-items: center;
   width: 44px;
   height: 44px;
-
+  fill: #afb1b8;
   border-radius: 50%;
 }
 
 .comand-icon-link:hover,
 .comand-icon-link:focus {
   background-color: var(--accent-color);
-}
-
-.icon-comand {
-  fill: #afb1b8;
-}
-
-.icon-comand:hover,
-.icon-comand:focus {
   fill: var(--h1-text-color);
 }
 
